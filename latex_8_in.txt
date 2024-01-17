@@ -1,0 +1,25 @@
+$$\Large SoC(t) = \frac{Q(t)}{Q_n} $$ 
+
+$$\Large Q(t) = Q_n \cdot SoC(t) $$ 
+
+$$\Large \hat Q = Q_{true} + w_Q$$ 
+
+$$\Large \hat{SoC} = SoC_{true} + w_{SoC}$$ 
+
+$$\Large \mu_x = E(X) $$ 
+
+$$\Large \sigma_x^2 = E((X - E(X))^2) = E((X - \mu_x)^2) = E(X^2) - \mu_x^2$$ 
+
+$$\Large E(\hat Q) = E(Q_{true} + w_Q)= E(Q_{true}) + E(w_Q) $$ 
+
+$$\Large = Q_{true} + E(w_Q) = |E(w_Q) =0| $$ 
+
+$$\Large = Q_{true}$$ 
+
+$$\Large var(\hat SoC) = E((\hat SoC - E(\hat SoC))^2) = E((SoC_{true} + w_{SoC} - E(SoC_{true} + w_{SoC}))^2)$$ 
+
+$$\Large \quad\quad\quad = E((SoC_{true} + w_{SoC} - SoC_{true} - E(w_{SoC}))^2)$$ 
+
+$$\Large = E((w_{SoC} )^2) $$ 
+
+$$\Large = var(w_{SoC}) $$

@@ -1,1 +1,8 @@
-trigger error
+This is a piece of text
+
+This is some maths
+\begin{equation}
+
+\text{alt} = \frac{R_e \times h}{R_e - h},
+
+\end{equation}
