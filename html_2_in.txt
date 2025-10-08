@@ -46,7 +46,7 @@
     </div>
   </nav>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
-  <img src="https://via.placeholder.com/800x600/" alt="">
+  <img src="https://placehold.co/800x600/" alt="">
   <main>
     <section></section>
     <section></section>
